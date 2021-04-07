@@ -1,0 +1,188 @@
+.trybtn{
+  color: white;
+  background-color: blue !important;
+  border-radius: 40px !important;
+  border: 0px;
+}
+.trybtn:hover{
+  background-color: rgb(59, 0, 99) !important;
+}
+.orange{
+  color: orange;
+}
+
+/**home*/
+
+#home{
+  background: url("../img/buildings.svg") no-repeat center bottom;
+  min-height: 500px;
+}
+.photo2{
+  background: url("../img/home_back.svg") no-repeat center center;
+  min-height: 500px;
+}
+.maindivhome{
+  margin: 0 auto;
+}
+.homeContent{
+  margin-top: 200px !important;
+  margin-bottom: 200px !important;
+}
+.editors{
+  background-color: rgb(223, 223, 223);
+  border-radius: 30px;
+  display: flex;
+}
+.chkbut{
+  padding: 5px;
+  background-color: orange;
+}
+.watchbtn{
+  color: blue !important;
+}
+.bold{
+  font-weight: 600 !important;
+}
+.home-inner1 img{
+  max-height: 1000px;
+}
+.mobile{
+  display: inline;
+}
+@media only screen and (max-width:1080px){
+  .homeContent{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+
+/* logos*/
+
+.logos img{
+  width: 150px;
+  height: min-content;
+  margin: 0 auto;
+}
+@media only screen and (max-width:480px){
+  .logos{
+    display: grid !important;
+  }
+  .logos img{
+    width: 100px;
+    height: min-content;
+    padding-bottom: 50px;
+  }
+}
+/*Featers*/
+
+#feature{
+  padding-top: 80px;
+}
+#feature img{
+  width: 100%;
+}
+.writ{
+  padding-top: 20px;
+}
+.writ1{
+  padding-top: 80px;
+}
+.ficon{
+  background: rgba(255, 13, 13, 0.137);
+  padding: 17px;
+}
+.ficon2{
+  background: rgba(13, 57, 255, 0.199);
+  padding: 17px;
+}
+.ficon3{
+  background: rgba(122, 255, 13, 0.253);
+  padding: 17px;
+}
+@media only screen and (max-width:480px){
+  #feature{
+    margin-top: 10px;
+  }
+}
+
+/* SMART OBJECT */
+
+.borderr8{
+  border-right: 1px solid rgb(138, 138, 138);
+
+}
+
+@media only screen and (max-width:720px){
+  .borderr8{
+    border-bottom: 1px solid rgb(138, 138, 138);
+    border-right: 0px;
+  }
+}
+
+/* DESIGN */
+
+.designContent{
+  margin-top: 130px !important;
+} 
+
+@media only screen and (max-width:1080px){
+  .designContent{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+/* app */
+
+.margin0{
+  margin: 0 auto;
+}
+
+/* awesome */
+
+.awesomebtn{
+  border-radius: 30px !important;
+  border: 1px solid rgb(211, 210, 210) !important;
+  width: 187px !important;
+  padding: 0px !important;
+}
+.inl{
+  display: inline !important;
+}
+
+/* meet client */
+
+.stars{
+  color: gold;
+}
+.lefti{
+  margin-left: 820px;
+}
+
+@media only screen and (max-width:900px){
+  .lefti{
+    margin-left: 550px;
+  }
+}
+
+/* DOWNLOAD */
+
+.walk{
+  background: url("../img/walk.png") no-repeat right;
+  background-size: contain;
+  min-height: 300px;
+  margin-top: 50px;
+  border-top: 1px solid rgb(187, 186, 186);
+}
+
+/* FOOTER */
+
+#footer{
+  min-height: 300px;
+  padding: 100px;
+  background: rgb(17, 17, 34);
+}
+.hoverW:hover{
+  color: white !important;
+}
